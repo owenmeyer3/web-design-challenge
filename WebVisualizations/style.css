@@ -1,0 +1,63 @@
+/*Toolbar*/
+.toolTitleBox {
+    padding: 5px 10px;
+    background-color: rgb(74,170,165);
+    margin-right: auto;
+}
+
+.navbar-custom-md {
+    background-color: white;
+}
+
+.navbar-custom-sm {
+    background-color: rgb(74,170,165);
+}
+
+.subBurgerItem {
+        margin-left: 15px;
+}
+
+/*homePage*/
+.homePageMd {
+    background-color: rgb(209, 209, 209);
+    padding: 10px 8%;
+}
+
+.homePageSm {
+    background-color: white;
+    padding: 10px 8%;
+}
+
+.homePane {
+    background-color: white;
+    margin: 20px auto;
+    padding: 10px;
+    float: left;
+}
+
+/*dataPage*/
+.dataPageMd {
+    background-color: rgb(209, 209, 209);
+    padding: 10px 8%;
+}
+
+#dataPane {
+    background-color: white;
+    margin: 20px auto;
+    padding: 15px;
+}
+
+h3 {
+    color: rgb(74,170,165);
+    font-family: "Times New Roman", Times, serif;
+}
+
+h4 {
+    text-align: center;
+    color: rgb(74,170,165);
+    font-family: "Times New Roman", Times, serif;
+}
+
+.select-image {
+    border: 2px solid rgb(74,170,165);
+}

@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html class lang='en'>
+    <head>
+        <meta charset="utf-8">
+        <!-- User CSS -->
+        <link rel="stylesheet" href="style.css">
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+        <!-- Bootstrap jQuery and JS bundle w/ Popper.js -->
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+        <title>Tab Title</title>
+    </head>
+    <body>
+        <div class="container-fluid">
+
+            <!-- Navbar Medium-->
+            <nav class="navbar navbar-expand-lg navbar-custom-md d-none d-lg-flex">
+                <div class="toolTitleBox mr-auto">
+                    <a class="navbar-brand text-white" style="margin-right: auto" href="#">Latitude</a>
+                </div>
+                <ul class="navbar-nav ml-auto text-dark">
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" href="#">Data</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" href="#">Comparison</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Plots
+                        </a>
+                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="#">Max Temperature</a>
+                            <a class="dropdown-item" href="#">Humidity</a>
+                            <a class="dropdown-item" href="#">Cloudiness</a>
+                            <a class="dropdown-item" href="#">Wind Speed</a>
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+
+
+            <!-- Navbar Small-->
+            <nav class="navbar navbar-dark navbar-custom-sm d-flex d-lg-none">
+                <a class="navbar-brand" href="#">Latitude</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent15"
+            aria-controls="navbarSupportedContent15" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent15">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Data</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Comparison</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link">Plots v</a>
+                    </li>
+                    <div class="dropdown-divider"></div>
+                    <li class="nav-item active">
+                        <a class="nav-link subBurgerItem" href="#">Max Temperature</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link subBurgerItem" href="#">Humidity</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link subBurgerItem" href="#">Cloudiness</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link subBurgerItem" href="#">Wind Speed</a>
+                    </li>
+                </ul>
+                </div>
+            </nav>
+
+            <!-- Page Medium-->
+            <div class="row homePageMd  d-none d-lg-flex">
+                <div class="homePane">
+                    <h3>Comparison: Latitude vs. X</h3>
+                    <hr>
+                    <p>Click any plot to get an in-depth analysis.</p>
+                    <div class="row">
+                        <div class="col-6">
+                            <h4>vs. Max Temperature</h4>
+                            <img width=100% src="assets/images/fig1.png" alt="Generic placeholder image">
+                        </div>
+                        <div class="col-6">
+                            <h4>vs. Humidity</h4>
+                            <img width=100% src="assets/images/fig2.png" alt="Generic placeholder image">
+                        </div>
+                        <div class="col-6">
+                            <h4>vs. Cloudiness</h4>
+                            <img width=100% src="assets/images/fig3.png" alt="Generic placeholder image">
+                        </div>
+                        <div class="col-6">
+                            <h4>vs. Wind Speed</h4>
+                            <img width=100% src="assets/images/fig4.png" alt="Generic placeholder image">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Page Small-->
+            <div class="row homePageSm  d-flex d-lg-none">
+                <div class="homePane">
+                    <h3>Comparison: Latitude vs. X</h3>
+                    <hr>
+                    <p>Click any plot to get an in-depth analysis.</p>
+                    <div class="row">
+                        <h4 style="margin: auto">vs. Max Temperature</h4>
+                        <img width=100% src="assets/images/fig1.png" alt="Generic placeholder image">
+                    </div>
+                    <hr/>
+                    <div class="row"> 
+                        <h4 style="margin: auto">vs. Humidity</h4>
+                        <img width=100% src="assets/images/fig2.png" alt="Generic placeholder image">
+                    </div>
+                    <hr/>
+                    <div class="row">
+                        <h4 style="margin: auto">vs. Cloudiness</h4>
+                        <img width=100% src="assets/images/fig3.png" alt="Generic placeholder image">
+                    </div>
+                    <hr/>
+                    <div class="row">
+                        <h4 style="margin: auto">vs. Wind Speed</h4>
+                        <img width=100% src="assets/images/fig4.png" alt="Generic placeholder image">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
