@@ -17,64 +17,54 @@
             <!-- Navbar Medium-->
             <nav class="navbar navbar-expand-lg navbar-custom-md d-none d-lg-flex">
                 <div class="toolTitleBox mr-auto">
-                    <a class="navbar-brand text-white" style="margin-right: auto" href="#">Latitude</a>
+                    <a class="navbar-brand text-white" style="margin-right: auto" href="./index.html">Latitude</a>
                 </div>
                 <ul class="navbar-nav ml-auto text-dark">
                     <li class="nav-item">
-                        <a class="nav-link text-dark" href="#">Data</a>
+                        <a class="nav-link text-dark" href="./data.html">Data</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-dark" href="#">Comparison</a>
+                        <a class="nav-link text-dark" href="./comparison.html">Comparison</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             Plots
                         </a>
                         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item" href="#">Max Temperature</a>
-                            <a class="dropdown-item" href="#">Humidity</a>
-                            <a class="dropdown-item" href="#">Cloudiness</a>
-                            <a class="dropdown-item" href="#">Wind Speed</a>
+                            <a class="dropdown-item" href="./visualization1.html">Max Temperature</a>
+                            <a class="dropdown-item" href="./visualization2.html">Humidity</a>
+                            <a class="dropdown-item" href="./visualization3.html">Cloudiness</a>
+                            <a class="dropdown-item" href="./visualization4.html">Wind Speed</a>
                         </div>
                     </li>
                 </ul>
             </nav>
 
-
             <!-- Navbar Small-->
             <nav class="navbar navbar-dark navbar-custom-sm d-flex d-lg-none">
                 <a class="navbar-brand" href="#">Latitude</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent15"
-            aria-controls="navbarSupportedContent15" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent15">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">Data</a>
-                    </li>
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">Comparison</a>
-                    </li>
-                    <li class="nav-item active">
-                        <a class="nav-link">Plots v</a>
-                    </li>
-                    <div class="dropdown-divider"></div>
-                    <li class="nav-item active">
-                        <a class="nav-link subBurgerItem" href="#">Max Temperature</a>
-                    </li>
-                    <li class="nav-item active">
-                        <a class="nav-link subBurgerItem" href="#">Humidity</a>
-                    </li>
-                    <li class="nav-item active">
-                        <a class="nav-link subBurgerItem" href="#">Cloudiness</a>
-                    </li>
-                    <li class="nav-item active">
-                        <a class="nav-link subBurgerItem" href="#">Wind Speed</a>
-                    </li>
-                </ul>
+                <div class="dropdown ml-auto">
+                    <button class="navbar-toggler" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-target="#navbarSupportedContent15" aria-controls="navbarSupportedContent15" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <ul class="dropdown-menu multi-level dropdown-menu-right" role="menu" aria-labelledby="dropdownMenu">
+                        <li class="dropdown-item"><a class="black-item" href="./data.html">Data</a></li>
+                        <li class="dropdown-item"><a class="black-item" href="./comparison.html">Comparison</a></li>
+                        <li class="dropdown-divider"></li>
+                        <li class="dropdown-submenu">
+                            <a  class="dropdown-item" href="#">Plots</a>
+                            <ul class="dropdown-menu dropdown-menu-right">
+                                <li class="dropdown-item"><a class="black-item" href="./visualization1.html">Max Temperature</a></li>
+                                <li class="dropdown-item"><a class="black-item" href="./visualization2.html">Humidity</a></li>
+                                <li class="dropdown-item"><a class="black-item" href="./visualization3.html">Cloudiness</a></li>
+                                <li class="dropdown-item"><a class="black-item" href="./visualization4.html">Wind Speed</a></li>
+                            </ul>
+                        </li>
+                    </ul>
                 </div>
             </nav>
+        </div>
+
 
             <!-- Page Medium-->
             <div class="row homePageMd  d-none d-lg-flex">
@@ -84,20 +74,20 @@
                     <p>Click any plot to get an in-depth analysis.</p>
                     <div class="row">
                         <div class="col-6">
-                            <h4>vs. Max Temperature</h4>
-                            <img width=100% src="assets/images/fig1.png" alt="Generic placeholder image">
+                            <h4>vs. Max Temperature</h4><a href="./visualization1.html">
+                            <img width=100% src="assets/images/Fig1.png" alt="Generic placeholder image">
                         </div>
                         <div class="col-6">
-                            <h4>vs. Humidity</h4>
-                            <img width=100% src="assets/images/fig2.png" alt="Generic placeholder image">
+                            <h4>vs. Humidity</h4><a href="./visualization2.html">
+                            <img width=100% src="assets/images/Fig2.png" alt="Generic placeholder image">
                         </div>
                         <div class="col-6">
-                            <h4>vs. Cloudiness</h4>
-                            <img width=100% src="assets/images/fig3.png" alt="Generic placeholder image">
+                            <h4>vs. Cloudiness</h4><a href="./visualization3.html">
+                            <img width=100% src="assets/images/Fig3.png" alt="Generic placeholder image">
                         </div>
                         <div class="col-6">
-                            <h4>vs. Wind Speed</h4>
-                            <img width=100% src="assets/images/fig4.png" alt="Generic placeholder image">
+                            <h4>vs. Wind Speed</h4><a href="./visualization4.html">
+                            <img width=100% src="assets/images/Fig4.png" alt="Generic placeholder image"></a>
                         </div>
                     </div>
                 </div>
@@ -110,23 +100,23 @@
                     <hr>
                     <p>Click any plot to get an in-depth analysis.</p>
                     <div class="row">
-                        <h4 style="margin: auto">vs. Max Temperature</h4>
-                        <img width=100% src="assets/images/fig1.png" alt="Generic placeholder image">
+                        <h4 style="margin: auto">vs. Max Temperature</h4><a href="./visualization1.html">
+                        <img width=100% src="assets/images/Fig1.png" alt="Generic placeholder image"></a>
                     </div>
                     <hr/>
                     <div class="row"> 
-                        <h4 style="margin: auto">vs. Humidity</h4>
-                        <img width=100% src="assets/images/fig2.png" alt="Generic placeholder image">
+                        <h4 style="margin: auto">vs. Humidity</h4><a href="./visualization2.html">
+                        <img width=100% src="assets/images/Fig2.png" alt="Generic placeholder image"></a>
                     </div>
                     <hr/>
                     <div class="row">
-                        <h4 style="margin: auto">vs. Cloudiness</h4>
-                        <img width=100% src="assets/images/fig3.png" alt="Generic placeholder image">
+                        <h4 style="margin: auto">vs. Cloudiness</h4><a href="./visualization3.html">
+                        <img width=100% src="assets/images/Fig3.png" alt="Generic placeholder image"></a>
                     </div>
                     <hr/>
                     <div class="row">
-                        <h4 style="margin: auto">vs. Wind Speed</h4>
-                        <img width=100% src="assets/images/fig4.png" alt="Generic placeholder image">
+                        <h4 style="margin: auto">vs. Wind Speed</h4><a href="./visualization4.html">
+                        <img width=100% src="assets/images/Fig4.png" alt="Generic placeholder image"></a>
                     </div>
                 </div>
             </div>
